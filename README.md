@@ -1,2 +1,2 @@
 # sudoku-game
-![scsh](https://user-images.githubusercontent.com/68711010/151393243-a555c058-80c8-4db9-b1a5-123b3d99b744.png)
+![scsh2](https://user-images.githubusercontent.com/68711010/151394320-0a3534de-4c3e-4047-aa96-1a0510f783d8.png)
