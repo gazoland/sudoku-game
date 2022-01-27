@@ -1,0 +1,70 @@
+### Checklist of all tasks to be done for the game:
+
+[X] Create a board with a main grid and a mini grid
+    - Definitions:
+        Total of mini positions = 729
+        Total of macro positions = 81
+
+        Pixels between each mini cell = 27
+        Pixels between each main cell = 81 + 2
+        Maingrid width = 3
+        Adittional pixels to compensate for the main grid = 8*3 = 24
+        Board width = 3
+        Adittional pixels for the outter board lines = 6
+
+        Inner length = 771
+
+
+[X] Create a system to hold every cell's informations
+    - Find the centers of all mini grid cells (X)
+    - Calculate all 729 coordinates for every cell's center (X)
+    - Find the coordinates of the center of all main grid cells (X)
+    - Store all information into dictionaries (X)
+    - Render board (X)
+
+
+[X] Create a system for selection of every cell and highlighting its block, column and row (line)
+    - Identify the inner pixel coordinates of every main cell of the board (X)
+    - Render on screen an additional square for the selected main cell (X)
+    - Highlight its block, column and row (X)
+
+
+[X] Implement a system for writing numbers on the center of each cell
+    - Write numbers for each cell of the mini grid (X)
+        Create a button to switch between guesses and notes (X)
+    - Write numbers for each cell of the main grid (X)
+    - Adapt the system for rendering on screen all numbers according to their "show" key (X)
+    - Auto erase all notes for the cells on that block, column and row according to the guessed number (X)
+
+
+[X] Implement a game system
+    - Generate a combination of numbers to fill the main grid cells (X)
+    - Check if these numbers make for a valid sudoku game (X)
+    - Distribute every number to its appropriate cell (X)
+    - Erase some numbers from the game board (X)
+
+
+[X] Implement a function for switching between cells using the arrow keys
+
+
+[X] Create conditions for winning, mistakes and losing
+    - Winning condition (X)
+    - Mistake condition (X)
+    - Losing condition (X)
+
+
+[ ] Create a function to ensure there is only one unique solution for the starting game board
+    - This is a tough one
+    - Perhaps counting how many times each number appears as clue?
+
+
+[ ] Create visual game elements
+    - Timer ( )
+    - Lives ( )
+    - Score ( )
+    - Implement buttons for: menu, restart and undo ( )
+
+
+[ ] Create a menu
+    - Two difficulties to choose from ( )
+    - A "start" button ( )
